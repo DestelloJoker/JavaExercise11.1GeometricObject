@@ -1,0 +1,42 @@
+
+<abstract> GeometricObject       
+-----------------------------
+  string color             
+  boolean filled         
+-----------------------------
+  GeometricObject()        
+  GeometricObject(string color, boolean filled) 
+  string getColor()      
+  void setColor(string color) 
+  boolean isFilled()      
+  void setFilled(boolean filled)
+  <abstract> double getArea()        
+  <abstract> double getPerimeter()   
+-----------------------------
+
+           ↑
+           |
+           |
+
+         Triangle           
+-----------------------------
+  double side1           
+  double side2            
+  double side3         
+-----------------------------
+  Triangle()               
+  Triangle(double side1, double side2, double side3) 
+  Triangle(double side1, double side2, double side3 , string color, boolean filled) 
+  double getSide1()      
+  double getSide2()      
+  double getSide3()      
+  double getArea()       
+  doublegetPerimeter()  
+  string toString()       
+-----------------------------
+
+
+           Main             
+-----------------------------
+ void main(String[] args) 
+-----------------------------
